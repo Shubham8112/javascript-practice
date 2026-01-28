@@ -1,0 +1,8 @@
+selector type:-type selector,class selector,id selector
+example
+let type = document.querySelector("header");
+console.log(type);
+let classSelector = document.querySelector(".header-content");
+console.log(classSelector);
+let idSelector = document.querySelector("#header");
+console.log(idSelector);

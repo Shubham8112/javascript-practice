@@ -1,0 +1,27 @@
+Simple rule to remember
+Property	Aligns
+justify-content	left ↔ right
+align-items	top ↕ bottom
+.a/
+Ultimate Checklist (Save this)
+
+Your portfolio should have:
+
+About
+
+Skills
+
+Projects (with links)
+
+Contact form
+
+Resume button
+
+Responsive design
+
+Hosted link
+
+When all boxes ticked → you’re job-ready junior dev.
+git add .
+git commit -m "Added centered navbar"
+git push

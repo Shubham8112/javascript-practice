@@ -115,11 +115,30 @@
 // const arr1 = [2,4,6,8];
 // console.log(reverseArray(arr1));
 // ques3...
-function reverseString(str){
-    let reverse ='';
-    for(let i = str.length-1;i>=0;i--){
-       reverse += str[i];
+// function reverseString(str){
+//     let reverse ='';
+//     for(let i = str.length-1;i>=0;i--){
+//        reverse += str[i];
+//     }
+//     return reverse;
+// }
+// console.log(reverseString(" hello"));
+// question 4
+
+function isPalindrome(str) {
+    let reverse = "";
+
+    for (let i = str.length - 1; i >= 0; i--) {
+        reverse += str[i];
     }
-    return reverse;
+
+    if (str === reverse) {
+        return "Palindrome";
+    } else {
+        return "Not a Palindrome";
+    }
 }
-console.log(reverseString(" hello"));
+
+// Test
+console.log(isPalindrome("madam"));
+console.log(isPalindrome("hello"));

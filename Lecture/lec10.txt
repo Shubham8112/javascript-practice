@@ -1,0 +1,15 @@
+DOM (Document object Model)
+document.body.style.bacckground = "red"
+const skill = document.getElementById("about")
+skill.innerHTML = "Shubham"
+skill.color = "red"
+skill.innerText = "Shubham"
+for class we use
+const nav = document.getElementsByClassName('hello')
+nav[0].innerHTML = 'blue'
+nav[1].innerTEXT = 'blue'
+const array1 = Array.from('abcdef') // it convert html collection to array
+console.log(Array.isArray(h3))
+h3.forEach(h=>h.style.color = 'pink')
+const skills = document.querySelector('#Skills')
+skills.style.color = 'red'

@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#addbtn,#subtractbtn{
+    height: 60px;
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(123, 81, 27);
+    color: white;
+    font-size: 24px;
+}
+p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 12px;
+}
+#btn{
+    display: flex;
+    gap: 18px;
+    margin-top: 10px;
+}
+#dynamicBtn{
+    width: 55px;
+    height: 25px;
+    padding: auto;
+    border: 2px solid burlywood;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: darkslategray;
+}
+#dynamicBtn:hover{
+    background-color: rgb(63, 29, 65);
+}

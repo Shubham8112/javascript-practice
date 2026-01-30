@@ -32,7 +32,9 @@ p{
     border-radius: 20px;
     color: aliceblue;
     background-color: darkslategray;
+    margin-top: 15px;
 }
 #dynamicBtn:hover{
     background-color: rgb(63, 29, 65);
+    background-color: rgb(225, 105, 183);
 }

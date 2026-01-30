@@ -1,0 +1,4 @@
+Event: an event is an action that happens in browser
+eg - click,key press ,typing
+event listener:- event listener waits for an event and run a function 
+event handler :- A function that runs 

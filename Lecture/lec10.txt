@@ -13,3 +13,4 @@ console.log(Array.isArray(h3))
 h3.forEach(h=>h.style.color = 'pink')
 const skills = document.querySelector('#Skills')
 skills.style.color = 'red'
+/////////

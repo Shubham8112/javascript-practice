@@ -1,1 +1,11 @@
 this keyword :->this is a special keyword that refers to the object that is currently using the function.
+callback:
+promise:->A Promise represents a value that will be available in the future — either success or failure.
+
+It solves the problems of:
+
+callback hell
+
+messy nested code
+
+error handling

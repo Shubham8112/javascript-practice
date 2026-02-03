@@ -2,6 +2,12 @@ Javascript is a single-threaded
 --Simplicity
 --DOM safety
 --call stack
---sync-Async
+--sync-Async :->
+--#Synchronous code runs line by line.
+Each task must finish before the next one starts.
+--#Asynchronous code does NOT block the next line.
+It runs in the background and finishes later.
+
 Task vs microtask : microtask queue Priority  first than task queue
 JavaScript runs one thing at a time, but uses queues + event loop to feel fast.
+-->Anonymous function:->An anonymous function is a function without a name, used when you don’t need to reuse it.

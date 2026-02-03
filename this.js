@@ -35,6 +35,6 @@
 //     }
 // }
 // user.sayName();
-setInterval(()=>{
-        console.log('hii'); 
-},1000); 
+// setInterval(()=>{
+//         console.log('hii'); 
+// },1000); 

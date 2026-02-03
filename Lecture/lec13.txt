@@ -1,0 +1,7 @@
+Javascript is a single-threaded
+--Simplicity
+--DOM safety
+--call stack
+--sync-Async
+Task vs microtask : microtask queue Priority  first than task queue
+JavaScript runs one thing at a time, but uses queues + event loop to feel fast.

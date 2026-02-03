@@ -1,0 +1,9 @@
+Scope ===>> let,const,var
+let and const are block scoped
+var are function scoped 
+laxical scope:- inner function access the variable of their outer function
+hoisting    
+ex: console.log(num)
+let num = 6 // it give error due to temporal deadzone  //in this case it is hoisted but not initialize
+but in case of var it is hoisted and initialized
+closure :- a closure is a function that remembers the value of variable from its outer function even if outer function has finished

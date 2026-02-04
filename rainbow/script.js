@@ -15,14 +15,14 @@ const body = document.querySelector(('body'))
 //         },2000)
 //     },2000)
 // },2000)
+// the below example is callback hell and it is hard to read difficult to maintain and debug . 
+// the solution of this callback hell is promises
 // function changecolor(newcolor,delay,next){
 //     setTimeout(()=>{
 //         body.style.backgroundColor =newcolor;
 //         next && next();
 //     },delay)
 // }
-// the below example is callback hell and it is hard to read difficult to maintain and debug . 
-// the solution of this callback hell is promises
 // changecolor('red',1000,()=>{
 //     changecolor('orange',1000,()=>{
 //         changecolor('yellow',1000,()=>{
@@ -38,14 +38,14 @@ const body = document.querySelector(('body'))
 //     })
 // })
 //using promise
-function changecolorpromise(newcolor,delay){
-    return new Promise((resolve,reject)=>{
-        setTimeout(()=>{
-            body.style.backgroundColor = newcolor;
-            resolve();
-        },delay)
-    })
-}
-changecolorpromise('red',1000)
-.then(()=>changecolorpromise('orange',1000))
-.then(()=>changecolorpromise('yellow',1000))
+// function changecolorpromise(newcolor,delay){
+//     return new Promise((resolve,reject)=>{
+//         setTimeout(()=>{
+//             body.style.backgroundColor = newcolor;
+//             resolve();
+//         },delay)
+//     })
+// }
+// changecolorpromise('red',1000)
+// .then(()=>changecolorpromise('orange',1000))
+// .then(()=>changecolorpromise('yellow',1000))

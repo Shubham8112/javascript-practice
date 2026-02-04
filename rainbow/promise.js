@@ -1,8 +1,9 @@
-const p =new Promise((resolve,reject)=>{
-    setTimeout(()=>{
-        console.log('hello');
-        resolve('promise resolved');
-    },2000)
-})
-p.then(data=>console.log(data));
-p.catch(err=>console.log(err));
+// const p =new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         console.log('hello');
+//         resolve('promise resolved');
+//     },2000)
+// })
+// p.then(data=>console.log(data));
+// p.catch(err=>console.log(err));
+//////

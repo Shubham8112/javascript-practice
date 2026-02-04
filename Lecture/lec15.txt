@@ -1,0 +1,13 @@
+JSON:->javascript Object Notation
+//javas
+{
+    name:"Tom",
+    age:23
+}
+//JSON
+{
+    name:"Tom",
+    age:23
+}
+JSON.parse->string to JSON
+JSON.stringify -> JSON to string

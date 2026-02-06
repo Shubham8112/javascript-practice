@@ -1,0 +1,15 @@
+React is a JavaScript library used for building user interfaces (UI) using components.
+Developed by Facebook
+Used to build single-page applications
+UI is broken into reusable components
+//
+Component vs Function
+Component
+A component is a reusable piece of UI
+In React, components are usually functions
+Component name must start with a capital letter
+..
+Normal Function
+A normal JavaScript function
+Used for logic or calculations
+Does not return JSX

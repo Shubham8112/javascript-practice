@@ -1,7 +1,7 @@
-// function sayHi(){
-//     console.log(this.name);
-//     // console.log(`My Name is ${this.name}`);
-// }
+function sayHi(){
+    console.log(this.name);
+    // console.log(`My Name is ${this.name}`);
+}
 // const person1 ={
 //     name : 'Tom',
 //     // sayName: function(){
@@ -10,16 +10,16 @@
 //     // }
 //     sayName:sayHi
 // }
-// const person2 = {
-//     name : 'Jerry',
-//     // sayName: function(){
-//     //     // console.log("My name is Jerry");
-//     //     console.log(this.name);
-//     // }
-//     sayName:sayHi
-// }
+const person2 = {
+    name : 'Jerry',
+    sayName: function(){
+        // console.log("My name is Jerry");
+        console.log(this.name);
+    },
+    sayName:sayHi
+}
 // person1.sayName();
-// person2.sayName();
+person2.sayName();
 ///////////
 // const user = {
 //     name: 'john',

@@ -49,8 +49,8 @@ console.log("After pop:", arr1);
 arr1.shift();
 console.log("After shift:", arr1);
 //unshift:- add new entry at the start
-arr1.unshift(0);
-console.log("After unshift:", arr1);
+ arr1.unshift(0);
+ console.log("After unshift:", arr1);
 //object in javascript: key-value pair
 const student = {
     name: "Ram",
@@ -68,3 +68,9 @@ for(let i=0;i<students.length;i++){
     console.log(`Name: ${students[i].Name}, Age: ${students[i].Age}, Marks: ${students[i].Marks}`);
 }
 // ...........
+//slice
+let numArray = [1,3,5,7,9];
+console.log(numArray.slice(1,4));
+//splice
+numArray.splice(1,2,3,6);
+console.log(numArray);

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css'
 import Message from './msg';
+import Todo from './todo';
 
 function App() {
   const [count,setCount] = useState(0)
@@ -25,6 +26,7 @@ function App() {
           <User name = 'Pandey'/>
           <input type="text" onChange={(e)=> settext(e.target.value)} />
           <p>Input value: {text}</p>
+          <Todo/>
         </div>
     </div>
     </>

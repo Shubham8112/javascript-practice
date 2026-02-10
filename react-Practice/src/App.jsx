@@ -1,12 +1,15 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Cart from './Component/Cart'
 import './App.css'
+import Signin from './Component/Signin'
 
 function App() {
-  <>
-    
-  </>
+  return (
+    <>
+      <Signin/>
+      <Cart/>
+    </>
+  )
 }
 
 export default App

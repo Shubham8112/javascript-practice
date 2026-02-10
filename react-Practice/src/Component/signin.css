@@ -1,0 +1,10 @@
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ee8f8f;
+}

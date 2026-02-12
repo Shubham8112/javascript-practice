@@ -5,6 +5,7 @@ function Signin() {
     const [lastName, setLastName] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+    const [success, setSuccess] = useState("");
     function login(e) {
         e.preventDefault();
 
@@ -12,8 +13,11 @@ function Signin() {
             alert("Please fill all required fields");
             return;
         }
+        setSuccess("Login Successfully 🎉")
+        // alert("Login Successfully 🎉");
 
-        alert("Login Successfully 🎉");
+
+        let veri = "login successfully";
         setFirstName("");
         setLastName("");
         setEmail("");
@@ -52,6 +56,7 @@ function Signin() {
                 />
 
                 <button type="submit">Submit</button>
+                {success && {"Login Successfully 🎉"}}
 
             </div>
 

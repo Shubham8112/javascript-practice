@@ -65,4 +65,3 @@ function Signin() {
 }
 
 export default Signin;
-// https://docs.google.com/forms/d/e/1FAIpQLScAL638BSFUl7nT6v8Aj_9wTxtJEyX-otJY3G4Y4s7ZTJ1rhw/viewform

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import './Signin.css';
-function Signin() {
+function SigninComponent() {
     const [firstName, setFirstName] = useState("");
     const [lastName, setLastName] = useState("");
     const [email, setEmail] = useState("");
@@ -56,7 +56,7 @@ function Signin() {
                 />
 
                 <button type="submit">Submit</button>
-                {success && {"Login Successfully 🎉"}}
+                {/* {success && {"Login Successfully 🎉"} */}
 
             </div>
 
@@ -64,4 +64,4 @@ function Signin() {
     );
 }
 
-export default Signin;
+export default SigninComponent;

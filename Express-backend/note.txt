@@ -1,0 +1,23 @@
+npm init -y :- it install package.json file in our project
+npm install express :- it install express module in our project
+npm install nodemon :- it install nodemon module in our project
+nodemon :- it is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+What is express :- Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. It allows you to create web servers and APIs quickly and easily, making it a popular choice for building backend applications in Node.js.
+How to create a server using express :- 
+1. First, you need to import the express module in your Node.js application using the require function.
+2. Then, you can create an instance of the express application by calling the express function.
+3. Next, you can define routes for your application using the app.get(), app.post(), app.put(), and app.delete() methods.
+4. Finally, you can start the server by calling the app.listen() method and specifying the port number on which the server should listen for incoming requests.
+Example code to create a server using express:
+```javascript
+const express = require('express');
+const app = express();  
+const PORT = 3000;
+app.get('/', (req, res) => {
+  res.send('Hello, World!');
+});
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
+In this example, we import the express module, create an instance of the express application, define a route for the root URL ("/") that sends a "Hello, World!" response, and start the server on port 3000. When you run this code, you can access the server by navigating to http://localhost:3000 in your web browser.
+postmam :- Postman is a popular API development and testing tool that allows developers to create, test, and document APIs. It provides a user-friendly interface for sending HTTP requests and receiving responses, making it easier to work with APIs during development. With Postman, you can create and manage collections of API requests, automate testing, and collaborate with team members on API development projects. It supports various HTTP methods (GET, POST, PUT, DELETE, etc.) and allows you to customize request headers, parameters, and body content for testing your APIs effectively.
